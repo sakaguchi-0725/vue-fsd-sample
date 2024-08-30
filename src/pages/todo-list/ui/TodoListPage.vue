@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { TodoList } from '@/widgets/todo-list'
+import { TodoList } from '@/features/todo-list'
 </script>
 
 <template>
-  <h1>Todo List</h1>
-  <TodoList></TodoList>
+  <h1 class="text-2xl text-center mb-14">Todo List</h1>
+  <TodoList />
 </template>
